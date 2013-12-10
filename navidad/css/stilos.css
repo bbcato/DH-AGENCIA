@@ -12,3 +12,10 @@ body{background:#b5d6df}
 #video{background:#3e4658;}
 #video #cont_video{margin:0 auto;text-align:center;width:90%;}
 #video #cont_video iframe{padding:20px 0 20px 0}
+#video #cont_video img{margin-top:-50px}
+#video #cont_video p{color:#fff;font-family:Raleway-Light;font-size:30px;padding:0 0 40px 0}
+#rs{background:#3e4658;border:solid 3px #00f;padding:0;}
+#rs #cont_rs{margin:0 auto;width:30%;}
+#rs #cont_rs p{font-family:Raleway-Light;font-size:30px}
+#rs #cont_rs #box_face{float:left;padding:0 10px 0 0}
+#rs #cont_rs #box_twi{float:left;padding:0 10px 0 0}
