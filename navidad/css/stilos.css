@@ -1,0 +1,14 @@
+@font-face{font-family:Raleway-Light;src:url("font/Raleway/Raleway-Light.ttf") format(truetype)}
+body{background:#b5d6df}
+#cabezote{background:#322037;padding-top:10px;}
+#cabezote #cont_cabezote{margin:0 auto;text-align:center;width:90%;}
+#cabezote #cont_cabezote h1{color:#fff;font-family:Raleway-Light;font-size:20px;padding:0 0 20px 0}
+#invi_promo{background:#a1aac1;}
+#invi_promo #cont_invi_promo{margin:0 auto;text-align:center;width:90%;}
+#invi_promo #cont_invi_promo img{padding:10px 0 10px 0}
+#promo{background:#b5d6df;padding-top:20px;}
+#promo #cont_promo{margin:0 auto;text-align:center;width:90%;}
+#promo #cont_promo img{padding:0 0 30px 0}
+#video{background:#3e4658;}
+#video #cont_video{margin:0 auto;text-align:center;width:90%;}
+#video #cont_video iframe{padding:20px 0 20px 0}
