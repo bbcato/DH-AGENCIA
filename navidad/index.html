@@ -28,14 +28,7 @@
 </head>
 
 <body>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
 
 <section id="cabezote">
 	<div id="cont_cabezote">
@@ -44,33 +37,37 @@
 </section>
 <section id="promo">
 	<div id="cont_promo">
-		<img src="img/txt-promo.png" alt="">
+		<img id="promo-g"src="img/promo-gran.png" alt="">
+		<img id="promo-p"src="img/txt-promo.png" alt="">
+		
 	</div>
 </section>
 <section id="video">
 	<div id="cont_video">
-		<img src="img/img-sonrie.png" alt="">
-		<iframe width="100%" height="315" src="//www.youtube.com/embed/3-ADvKb9vB0" frameborder="0" allowfullscreen></iframe>
+		<img id="sonri-grande" src="img/sonrie-g.png" alt="" >
+		<img id="sonri-peque"  src="img/img-sonrie.png" alt="" >
+		<iframe width="100%" height="415" src="//www.youtube.com/embed/3-ADvKb9vB0" frameborder="0" allowfullscreen></iframe>
 		<p>#NavidadDH</p>
 	</div>
 </section>
-<section id="rs">
-	<div id="cont_rs">
-			<p>Comparte esta pagina</p>		
-			<div id="box_face" class="fb-share-button" data-href="http://dh-gc.com/navidad/" data-type="button_count"></div>
-			
-			<div id="box_twi">
-				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://dh-gc.com/navidad/" data-via="dh_bairon" data-lang="es" data-related="dhagencia" data-hashtags="NavidadDH">Twittear</a>
-				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-			</div>
-	</div>
 
-</section>
 <section id="invi_promo">
 	<div id="cont_invi_promo">
-		<img src="img/txt_invi_promo.png" alt="">
+		<img id="urlg"src="img/url-g.png" alt="">
+		<img id="urlp"src="img/url-p.png" alt="">
+		<div id="cont_box_twi">
+			<a class="twitter-timeline" href="https://twitter.com/dhagencia" data-widget-id="410279885769158658">Tweets por @dhagencia</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+		</div>
+		<img id="sg"src="img/sorteo-g.png" alt="">
+		<img id="sp"src="img/sorteo-p.png" alt="">
 	</div>
 </section>
+<footer>
+	<img id="fg"src="img/foo-g.png" alt="">
+	<img id="fp"src="img/foo-p.png" alt="">
+</footer>
 	
 </body>
 </html>
