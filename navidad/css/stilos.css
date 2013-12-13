@@ -1,6 +1,7 @@
 @font-face{font-family:Raleway-Light;src:url("font/Raleway/Raleway-Light.ttf") format(truetype)}
 body{background:#b5d6df}
 footer{text-align:center;}
+footer a{color:#9a3d46;font-family:Raleway-Light;font-size:20px}
 @media screen and (min-width: 768px){footer #fp{display:none}
 }footer #fg{display:none;}
 @media screen and (min-width: 768px){footer #fg{display:block;margin:0 auto;padding:20px}
@@ -9,7 +10,8 @@ footer{text-align:center;}
 #cabezote #cont_cabezote h1{color:#fff;font-family:Raleway-Light;font-size:20px;padding:0 0 20px 0}
 #invi_promo{background:#9a3d46;}
 #invi_promo #cont_invi_promo{margin:0 auto;text-align:center;width:90%;}
-#invi_promo #cont_invi_promo #cont_box_twi{margin:0 auto;padding:20px;width:70%}
+#invi_promo #cont_invi_promo #cont_box_twi{float:left;margin:0 auto;padding:20px;width:40%}
+#invi_promo #cont_invi_promo #box_you{float:left;width:50%}
 @media screen and (min-width: 768px){#invi_promo #cont_invi_promo #sp{display:none}
 }#invi_promo #cont_invi_promo #sg{display:none;}
 @media screen and (min-width: 768px){#invi_promo #cont_invi_promo #sg{display:block;margin:0 auto}
